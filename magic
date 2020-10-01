@@ -1,0 +1,20 @@
+#!/bin/bash
+ORIGIN=$(pwd)
+
+# cd $ORIGIN
+
+# for ((i=1; i<1000; i++)); do
+#     mkdir test
+#     cd test
+# done
+
+# echo "Wake up, Neo..." > test
+
+cd $ORIGIN
+
+for ((i=1; i<100; i++)); do
+    mkdir test
+    cd test
+done
+
+echo "Wake up, Neo..." > test
